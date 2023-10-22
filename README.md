@@ -1,7 +1,7 @@
 # FirstTimeCompile
 ## Overview
 
-This is a repo for Team FirstTimeCompile's HTML task for Computer & Information Skills (CSCI101FALL2023). The repo may be used for other projects of the Team in the future.
+This is a repo for Team FirstTimeCompile's [HTML task for Computer & Information Skills (CSCI101FALL2023)](https://moodle.nu.edu.eg/pluginfile.php/174375/mod_resource/content/0/HTML%20Project%20Guidelines.pdf). The repo may be used for other projects of the Team in the future.
 
 ## HTML
 
