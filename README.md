@@ -19,8 +19,6 @@ This is a repo for Team FirstTimeCompile's [HTML task for Computer & Information
 * [ ] ABD-ALMABOUD PAGE 2
 * [ ] AFIFI PAGE 1
 * [ ] AFIFI PAGE 2
-* [ ] OMAR PAGE 1
-* [ ] OMAR PAGE 2
 * [ ] YAHIA PAGE 1
 * [ ] YAHIA PAGE 2
 * [ ] ZEIN PAGE 1
