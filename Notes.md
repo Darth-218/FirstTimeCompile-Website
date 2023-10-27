@@ -51,4 +51,4 @@ h1 {    /* this looks really nice, we shouldn't change it much */
 
 /* etc */
 ```
-Here's how it looks like: ![Screenshot of website](/Screenshot 1.png?raw=true)
+Here's how it looks like: ![Screenshot of website](https://github.com/Darth-218/FirstTimeCompile/blob/main/Screenshot%201.png)
