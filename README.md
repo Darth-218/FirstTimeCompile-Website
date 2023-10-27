@@ -23,5 +23,3 @@ This is a repo for Team FirstTimeCompile's [HTML task for Computer & Information
 * [ ] YAHIA PAGE 2
 * [ ] ZEIN PAGE 1
 * [ ] ZEIN PAGE 2
-* [ ] ZIAD PAGE 1
-* [ ] ZIAD PAGE 2
