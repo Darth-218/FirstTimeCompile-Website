@@ -20,6 +20,10 @@ nav {
 }
 ```
 
+I think we should create a `nav.html` file and then use an iFrame to place it 
+at the top of each page, that way we don't have to reuse the same code in every
+file.
+
 ## Style
 Here is some css taken from a project I worked on a while back called
 `std::cout` (which is supposed to be pronounced "Study Character Output"), with
