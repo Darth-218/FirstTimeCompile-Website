@@ -4,6 +4,8 @@ const navigation = document.querySelector('nav');
 const links = {
   "Home": "index.html",
   "Types": "types.html",
+  "Preparation": "preparation.html",
+  "Terminology": "terms.html",
   "About Us": "about.html",
 };
 

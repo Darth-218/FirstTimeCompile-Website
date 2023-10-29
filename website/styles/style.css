@@ -80,6 +80,10 @@ nav {
     color: #36AED6;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
 .codeblock {
   margin: 0 54px auto;
   font-family: 'Courier New';
