@@ -3,6 +3,7 @@ const navigation = document.querySelector('nav');
 /* list of links we want in the navigation bar */
 const links = {
   "Home": "index.html",
+  "Types": "types.html",
   "About Us": "about.html",
 };
 
