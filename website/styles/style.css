@@ -56,6 +56,12 @@ h3 {
     text-shadow: 2px 2px 1px black;
 }
 
+h4 {
+    font-size: 22px;
+    color: #B636DA;
+    text-shadow: 1px 1px 1px black;
+}
+
 p, li, label {
     font-size: 18px;
     line-height: 2;
@@ -72,4 +78,13 @@ nav {
     letter-spacing: 1px;
     text-align: center;
     color: #36AED6;
+}
+
+.codeblock {
+  margin: 0 54px auto;
+  font-family: 'Courier New';
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #8504AA;
+  padding: 0 6px 6px 6px;
 }
