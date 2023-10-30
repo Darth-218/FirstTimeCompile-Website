@@ -11,7 +11,7 @@ const links = {
 
 let i = 0;
 for (const link in links) {
-  /* creates a <a> element */
+  /* creates an <a> element */
   const link_elem = document.createElement('a');
   /* sets the text the link will have */
   link_elem.textContent = link;
@@ -24,6 +24,7 @@ for (const link in links) {
     navigation.appendChild(separator);
   }
 
+  /* adds the final <a> element to the <nav> tag */
   navigation.appendChild(link_elem);
   ++i;
 }

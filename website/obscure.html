@@ -16,21 +16,87 @@
     <nav> </nav>  <!--gets filled in by the js-->
     <hr>          <!--Horizontal Rule (line/separator)-->
 
-    <h2>Array-Oriented Languages</h2>
+    <h2>Array-Based Languages</h2>
     <h3>APL, BQN, J, Uiua...</h3>
-    <p>Lorem Ipsum</p>
+    <p>
+      Array languages are very different from other styles of programming. In
+      these, the main data type is the <em>array</em> (basically a type of
+      list) and the idea of the program is that the instructions you specify
+      will get executed on the entire array at the same time. This makes them
+      very fast and well suited for problems where you have a big list of
+      things that you want to do things to, including if you have a big matrix
+      (which could be higher than 2-dimensional!). Most popular array languages
+      are unicode-based, which means that they use glyphs or symbols instead of
+      words. For example, here is a bit of Uiua code that defines a function
+      that takes a list of two numbers and returns their hypotnuse (i.e. it
+      returns the squareroot of the sum of their squares):
+    </p>
+
     <div class="codeblock">
       Hypot ← ⍜⍘√/+
     </div>
 
+    <p>
+      What this code basically does is that it <em>reduces</em> the list
+      by summing it after getting the "inverse-squareroot" (i.e. the
+      sqaure) of each one, then getting the "inverse inverse-squareroot" (i.e.
+      the squareroot) of the result.
+    </p>
+
+    <p>
+      A problem that demonstrates their ability over arrays and matrices more
+      is this program (also in Uiua) that checks if a matrix is an "x-matrix"
+      or not; an x-matrix is a matrix that has 0s everywhere except for its
+      diagonals.
+    </p>
+
+    <div class="codeblock">
+      CheckMatrix ← ≍↧1∶↥⇌.⊞=.⇡⧻.
+    </div>
+
+    <p>
+      It generates an identity matrix, copies it and reverses the copy, adding
+      the two matrices together (this creates an x-matrix with 1s on the
+      diagonals), then reduces the original matrix so that all its elements are
+      1s, then checks to see if the two matrices are the same.
+    </p>
+
     <h2>Esoteric Languages</h2>
     <h3>Brainf*ck, Piet, Shakespeare, Chef...</h3>
-    <p>You might be wondering: “Why would there be a programming language
-        called <em>Brainf*ck</em>”? Well, here's a simple Brainf*ck program
-        that prints “Hello, world!” on the screen:</p>
+    <p>
+      You might be wondering: “Why would there be a programming language
+      called <em>Brainf*ck</em>”? Well, here's a simple Brainf*ck program
+      that prints “Hello, world!” on the screen:
+    </p>
+
     <div class="codeblock">
       ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
     </div>
+
+    <p>
+      You now know why the language is called Brainf*ck.
+    </p>
+
+    <p>
+      Esoteric programming languages are languages which were not created with
+      the purpose of being used to write real programs, rather they were
+      created to demonstrate an idea, as an exercise for the person making them
+      or just for fun. Piet, for example, is meant to be a language that looks
+      like abstract art. Here is a piet program that prints the word “Piet”:
+    </p>
+
+    <center>
+    <img src="Piet_Program.gif"
+      alt="A colourful picture that looks like abstract art, it has a yellow
+        outline">
+    </center>
+
+    <p>(yellow outline not part of the image)</p>
+
+    <p>
+      Similarly, Chef code is meant to resemble a recipe, and Shakespeare code
+      looks like the script for a play.
+    </p>
 
   </body>
   
