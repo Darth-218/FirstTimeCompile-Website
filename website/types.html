@@ -16,6 +16,7 @@
     <nav> </nav>  <!--gets filled in by the js-->
     <hr>          <!--Horizontal Rule (line/separator)-->
 
+    <h2>Low-level</h2>
     <h3>Hand-Coded Machine Code...</h3>
     <p>
       The first computers did not have any interface aside from a couple LEDs,
@@ -37,14 +38,13 @@
 
     <p>
       Writing a program in assembly involves storing small (1-4 bytes,
-      depending on the processor) values into <em>registers</em>, which are small
-      units of very fast memory that is directly accessable by the CPU, and
-      performing very basic arithmetic (math) on them using
+      depending on the processor) values into <em>registers</em>, which are
+      small units of very fast memory that is directly accessable by the CPU,
+      and performing very basic arithmetic (math) on them using
       <em>instructions</em>. Assembly instructions tend to be written as 2-4
-      letter word abbreviations, such as
-      <code>ldx</code> (load a value into the
-      x register) and <code>jne</code> ("jump not-equals", the
-      closest thing assembly has to an if-statement).
+      letter word abbreviations, such as <code>ldx</code> (load a value into
+      the x register) and <code>jne</code> ("jump not-equals", the closest
+      thing assembly has to an if-statement).
     </p>
 
 
@@ -53,15 +53,15 @@
     <h4>C...</h4>
     <p>
       Imperative languages are definitely the most common programming
-      <em>paradigm</em>, and are how most people think of programming in general:
-      as a <em>series of instructions executed by the computer</em>. Procedural
-      languages such as C could be concidered the "vanilla" type of imperative
-      languages. You write the program as a bunch of <em>statements</em> (in
-      C terminated by a semicolon) which are executed by the computer after
-      being translated into machine code by, in C's case, the compiler. You are
-      also given several other tools to control how those statements are run;
-      the most common are if-else statements for branching and a for, while,
-      and sometimes do-while loops for, well, looping.
+      <em>paradigm</em>, and are how most people think of programming in
+      general: as a <em>series of instructions executed by the computer</em>.
+      Procedural languages such as C could be concidered the "vanilla" type of
+      imperative languages. You write the program as a bunch of
+      <em>statements</em> (in C terminated by a semicolon) which are executed
+      by the computer after being translated into machine code by, in C's case,
+      the compiler. You are also given several other tools to control how those
+      statements are run; the most common are if-else statements for branching
+      and a for, while, and sometimes do-while loops for, well, looping.
     </p>
 
     <h3>Object Oriented Langauges</h3>
@@ -265,8 +265,8 @@
     </code>
 
     <p>
-      The Haskell solution is still three times shorter than the C solution.
-      It is also a lot less likely to include an error than the C version. For
+      The Haskell solution is still three times shorter than the C solution. It
+      is also a lot less likely to include an error than the C version. For
       example, if you change the size of the list at some point put don't
       update the code (or just try to use a different list), then the program
       either won't check the last few items, or it'll try to look beyond the
