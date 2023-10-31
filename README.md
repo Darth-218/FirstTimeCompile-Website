@@ -14,7 +14,7 @@ This is a repo for Team FirstTimeCompile's [HTML task for Computer & Information
 ### TODO
 * [ ] HOME PAGE
 * [ ] ABOUT US
-* CSS
+* [ ] CSS
     * [ ] BULLETS
     * [ ] AFIFI
     * [ ] YAHIA
@@ -25,5 +25,5 @@ This is a repo for Team FirstTimeCompile's [HTML task for Computer & Information
 * [ ] AFIFI PAGE 2
 * [ ] YAHIA PAGE 1
 * [ ] YAHIA PAGE 2
-* [ ] ZEIN PAGE 1
+* [x] ZEIN PAGE 1
 * [x] ZEIN PAGE 2
