@@ -35,31 +35,255 @@
       differently.
     </p>
 
+    <p>
+      Writing a program in assembly involves storing small (1-4 bytes,
+      depending on the processor) values into <em>registers</em>, which are small
+      units of very fast memory that is directly accessable by the CPU, and
+      performing very basic arithmetic (math) on them using
+      <em>instructions</em>. Assembly instructions tend to be written as 2-4
+      letter word abbreviations, such as
+      <code>ldx</code> (load a value into the
+      x register) and <code>jne</code> ("jump not-equals", the
+      closest thing assembly has to an if-statement).
+    </p>
+
 
     <h2>Imperative Languages</h2>
     <h3>Procedural</h3>
     <h4>C...</h4>
     <p>
-      Lorem Ipsum
+      Imperative languages are definitely the most common programming
+      <em>paradigm</em>, and are how most people think of programming in general:
+      as a <em>series of instructions executed by the computer</em>. Procedural
+      languages such as C could be concidered the "vanilla" type of imperative
+      languages. You write the program as a bunch of <em>statements</em> (in
+      C terminated by a semicolon) which are executed by the computer after
+      being translated into machine code by, in C's case, the compiler. You are
+      also given several other tools to control how those statements are run;
+      the most common are if-else statements for branching and a for, while,
+      and sometimes do-while loops for, well, looping.
     </p>
 
     <h3>Object Oriented Langauges</h3>
     <h4>C++, Java, C#, Dart, Ruby...</h4>
     <p>
-      Lorem Ipsum
+      Probably the most common variant of the imperative paradigm is OOP:
+      Object Oriented Programming. Here you define <em>classes</em>, which
+      organise some data, as well as some <em>methods</em> on those classes,
+      and then you can create <em>objects</em> that are instances of the
+      classes taht were defined. 
+    </p>
+
+    <p>
+      For example, you might write a class to represent a bank account which
+      includes variables for the account name, address, balance, and maybe some
+      other stuff. You can then write methods for withdrawing money from the
+      account, depositing money into it, as well as anything else that you
+      wanted to model.
+    </p>
+
+    <p>
+      From here when you declare a variable later in your code, you can declare
+      it to be an instance of that bank account class, and perform those
+      actions you defined on that variable. Here is some Python code that
+      demonstrates what I talked about:
+    </p>
+
+    <code class="block">
+      class BankAccount:
+        account_name   : str = '' # empty string
+        account_address: str = ''
+        account_balance: int = 0
+        
+        def __init__(self, name: str, add: str, init_bal: int):
+          self.account_name    = name
+          self.account_address = add
+          self.account_balance = init_bal # initial balance
+
+
+        def deposit(self, ammount: int) -&gt; int:
+          """
+          Adds an ammount to the account's balance, then returns the total
+          balance.
+          """
+
+          self.account_balance += ammount # adds the ammount to the balance.
+          return self.account_balance
+
+        
+        def withdraw(self, ammount: int) -&gt; int:
+          """
+          Removes an ammount from the account's balance, then returns the total
+          balance.
+          """
+          
+          self.account_balance -= ammount # removes ammount from balance.
+          return self.account_balance
+
+      
+      # Bank account for a person named Maryam living on the moon. Initial
+      # balance is 1 billion.
+      account = BankAccount("Maryam", "The Moon", 1_000_000)
+      account.withdraw(5_000) # removes 5,000 from the balance
+      account.deposit(1_000)  # adds 1,000 to the balance
+
+      print(account.balance)  # prints `996000` to the screen
+    </code>
+
+    <p>
+      Note that Python isn't stricly an OOP language. Python is multi-paradigm,
+      and as such supports many different programming techniques. I used it
+      here as an example because of its simple syntax, as well as the fact that
+      the reader is probably at least slightly familiar with the language.
     </p>
 
     <h2>Declarative</h2>
     <h3>Functional</h3>
     <h4>Haskell, F#, Clojure...</h4>
     <p>
-      Lorem Ipsum
+      Declarative langauges are much different, partly because many of them are
+      at least a little based on mathematics. I'll be focusing specifically on
+      functional languages here, as those are more common and I have more
+      experience with them.
     </p>
 
-    <h2>Conclusion</h2>
     <p>
-      There are also many other types, which you can learn more about
-      <a href="obscure.html">here</a>.
+      Here, there are no instructions, and programs are a lot more restriced
+      because of how functional programming restricts "side-effects". What that
+      means is: programs can't change their environment. You wouldn't be able
+      to write a function like <code>withdraw</code> here, as that function
+      changes the <code>account_balance</code> variable, but in functional
+      languages, variables are <em>immutable</em> (i.e. they cannot change).
+    </p>
+
+    <p>
+      The idea is that if you give the same program the same parameters it will
+      <em>always</em> give you the same output. This is done by writing "pure"
+      code that doesn't change anything it has and doesn't depend on anything
+      outside of it. If you write a function in Haskell, for example, all that
+      function can do is take in some variable(s) and give out some other
+      variable(s). This might seem overly restrictive, but it is often not too
+      hard to write in this paradigm once you get used to thinking in the way
+      it wants you to think in, and it makes creating errors almost impossible.
+    </p>
+
+    <p>
+      A common feature of functional languages is their use of
+      <em>recursion</em>, as they don't have access to common programming tools
+      such as the for-loop. Instead, a function can call itself repeatedly. You
+      <em>can</em> use recursion in other languages, but you'll often get a
+      warning from the compiler or interpreter; if the language doesn't support
+      it, recursion can take up a <em>lot</em> of memory.
+    </p>
+
+    <p>
+      To demonstrate the difference, here is the same problem solved in C and
+      Haskell: given a number and a list of numbers, check whether the number
+      is included in the list or not.
+    </p>
+
+    <code class="block">
+      /* C solution */
+      #define LIST_SIZE 5
+      #define TRUE 1
+      #define FALSE 0
+
+      int main(int argc, char *arv[])
+      {
+        int num, i;
+        int list[LIST_SIZE];
+        
+        /* number and list of numbers */
+        num = 8;
+        list = [2, 4, 6, 8, 10];
+
+        for (i = 0; i &lt; LIST_SIZE; ++i)
+          if num == list[i]
+            return TRUE;
+          else
+            continue;
+
+        return FALSE;
+      } /* this returns TRUE */
+    </code>
+
+    <br>
+
+    <code class="block">
+      -- Haskell solution
+      elem :: (Eq a) =&gt; a -&gt; [a] -&gt; Bool
+      elem _ []     = False
+      elem i (x:xs) = i == x || i `elem` xs
+
+      -- number and list of numbers
+      num = 8
+      list = [2, 4, 6, 8, 10];
+
+      answer = num `elem` list -- this is True
+    </code>
+
+    <p>
+      Here, the C solution starts at the beginning of the list and checks if
+      the first element is the same as the number, if it is: stop the loop and
+      return TRUE; if it isn't check the next element. At the end, after the
+      whole list was checked and nothing matched, return FALSE.
+    </p>
+
+    <p>
+      The Haskell solution starts by defining a function called
+      <code>elem</code>, then says that if you check if anything is an element
+      of the empty list then the result is False. If the list isn't empty, it
+      checks if the number equals the "head" of the list (the first element in
+      it). If it isn't, it checks if the number is an element of the rest of
+      the list. Notice that the function calls itself here, that is the meaning
+      of recursion.
+    </p>
+
+    <p>
+      As you can see, the C solution is quite a bit longer than the Haskell
+      solution. Part of this is that C is a lot lower-level than Haskell, so
+      here is the actual element checking code from each of the solutions by
+      itself:
+    </p>
+
+    <code class="block">
+      /* C */
+      for (i = 0; i &lt; LIST_SIZE; ++i)
+        if num == list[i]
+          return TRUE;
+        else
+          continue;
+      return FALSE;
+    </code>
+
+    <br>
+
+    <code class="block">
+      -- Haskell
+      elem _ []     = False
+      elem i (x:xs) = i == x || i `elem` xs
+    </code>
+
+    <p>
+      The Haskell solution is still three times shorter than the C solution.
+      It is also a lot less likely to include an error than the C version. For
+      example, if you change the size of the list at some point put don't
+      update the code (or just try to use a different list), then the program
+      either won't check the last few items, or it'll try to look beyond the
+      list into memory used by other programs (in low-level languages like C)
+      or simply stop program execution with an index-out-of-bounds error (in
+      high-level ones). Also, if you accidentally wrote &gt; or &lt;= instead
+      of &lt;, then the code similarly wouldn't work. This is also true if you
+      tried to give it a list of words, for example, instead of a list of
+      numbers. Many of those errors are impossible in Haskell, either because
+      we aren't using a for-loop, or because the language won't let you do them
+      in the first place.
+    </p>
+
+    <h2>Other Types</h2>
+    <p>
+      There are also many other types that I didn't mention, you can learn
+      about some of them <a href="obscure.html">here</a>.
     </p>
 
   </body>

@@ -87,11 +87,20 @@ img {
   border: 10px solid #ECFD38;
 }
 
-.codeblock {
-  margin: 0 54px auto;
+code {
   font-family: 'Courier New';
   font-size: 20px;
+  font-weight: bold;
   color: #FFFFFF;
   background-color: #047AA1;
-  padding: 0 6px 6px 6px;
+  padding: 2px 2px 2px 2px;
 }
+
+.block {
+  margin: 0 54px auto;
+  display: block;
+  white-space: pre-wrap;
+  padding: 0 6px 6px 6px;
+  border: 5px solid #FF9E39;
+}
+
