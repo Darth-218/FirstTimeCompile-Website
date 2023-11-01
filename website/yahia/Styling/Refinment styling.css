@@ -1,0 +1,25 @@
+html {
+  margin: 10%;
+}
+html body {
+  font-family: "Poppins";
+  margin: 1.2em;
+  color: #071013;
+}
+html body a {
+  color: #17798d;
+}
+html body .italicname {
+  font-weight: bolder;
+  color: #488c99;
+}
+html body span {
+  color: #23b5d3;
+}
+html body p {
+  font-size: 1.3em;
+  color: #666666;
+}
+html body img {
+  width: 50svh;
+}/*# sourceMappingURL=Refinment styling.css.map */
