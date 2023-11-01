@@ -17,6 +17,7 @@ for (const link in links) {
   link_elem.textContent = link;
   /* sets the href attribute to be the html file the link will go to */
   link_elem.setAttribute('href', links[link]);
+  link_elem.setAttribute('class', 'nav-item');
 
   /* adds a separator between links, but not at the end or at the start */
   if ((i != links.legth - 1) && (i != 0)) {

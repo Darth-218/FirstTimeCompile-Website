@@ -78,6 +78,10 @@ nav {
   color: #A526C0;
 }
 
+.nav-item {
+  /* for Afifi */
+}
+
 table, th, td {
   border: 1px solid #A526C0;
   margin: auto;
