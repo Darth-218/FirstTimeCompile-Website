@@ -3,6 +3,8 @@ const navigation = document.querySelector('nav');
 /* list of links we want in the navigation bar */
 const links = {
   "Home": "index.html",
+  "Introduction": "intro.html",
+  "Early Developement": "developement.html",
   "Types": "types.html",
   "Preparation": "preparation.html",
   "Terminology": "terms.html",
@@ -17,6 +19,7 @@ for (const link in links) {
   link_elem.textContent = link;
   /* sets the href attribute to be the html file the link will go to */
   link_elem.setAttribute('href', links[link]);
+  /* nav-item class for Afifi to do things */
   link_elem.setAttribute('class', 'nav-item');
 
   /* adds a separator between links, but not at the end or at the start */

@@ -3,18 +3,26 @@
   
   <head>
     <title>FTC - Programming Languages | Types</title>
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/new_style.css" rel="stylesheet">
     <script defer src="scripts/script.js"></script>
     <link href="favicon.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
   </head>
   
   <body>
 
     <!--HOME PAGE-->
-    <h1>Types of Programming Languages</h1>
-
     <nav> </nav>  <!--gets filled in by the js-->
     <hr>          <!--Horizontal Rule (line/separator)-->
+
+    <h1>
+      Programming Languages:
+      <span>Common Types</span>
+    </h1>
+
+    <hr class="divider">
 
     <h2>Low-level</h2>
     <h3>Hand-Coded Machine Code...</h3>
@@ -183,28 +191,28 @@
     </p>
 
     <code class="block">
-      /* C solution */
-      #define LIST_SIZE 5
-      #define TRUE 1
-      #define FALSE 0
+/* C solution */
+#define LIST_SIZE 5
+#define TRUE 1
+#define FALSE 0
 
-      int main(int argc, char *arv[])
-      {
-        int num, i;
-        int list[LIST_SIZE];
-        
-        /* number and list of numbers */
-        num = 8;
-        list = [2, 4, 6, 8, 10];
+int main(int argc, char *arv[])
+{
+  int num, i;
+  int list[LIST_SIZE];
+  
+  /* number and list of numbers */
+  num = 8;
+  list = [2, 4, 6, 8, 10];
 
-        for (i = 0; i &lt; LIST_SIZE; ++i)
-          if num == list[i]
-            return TRUE;
-          else
-            continue;
+  for (i = 0; i &lt; LIST_SIZE; ++i)
+    if num == list[i]
+      return TRUE;
+    else
+      continue;
 
-        return FALSE;
-      } /* this returns TRUE */
+  return FALSE;
+} /* this returns TRUE */
     </code>
 
     <br>
