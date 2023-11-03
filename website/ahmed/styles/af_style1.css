@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .pageHeader {
-    background-color: rgb(36, 181, 212);
-    margin: 0px;
+    background-color: transparent;
+    margin: 30px;
     padding: 0px;
-    height: 300px;
+    height: 100px;
     display: flex;
     align-items: center;
+    
 }
 
 .pageTitle {
-    color: white;
-    margin: 30px;
-    width: fit-content;
+    color: black;
+    margin: 20px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 0px;
+  margin: 30px;
   padding: 0px;
 }
 
@@ -25,7 +25,7 @@ body {
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
 }
 
@@ -53,8 +53,29 @@ body {
 
 .horizontalUl li {
     display: inline-block;
+    
 }
 
 .contentImges {
     width: 300px;
+}
+
+.titleSide {
+    width: 15px;
+    height: 50px;
+    background-color: rgb(36, 181, 212);
+}
+.list {
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 70px;
+}
+
+.paragraph {
+    font-size: 1.3em;
+    color: #666666;
+}
+
+iframe {
+    border: 0px;
 }
