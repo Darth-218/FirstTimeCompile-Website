@@ -1,0 +1,165 @@
+html {
+
+    font-family: "Poppins";
+
+    .page-title{
+
+        width: 75%;
+        padding: 20px;
+    }
+
+    span{
+
+        color: #23b5d3;
+    }
+
+    hr{
+
+        margin: 5em;
+    }
+
+    .page-title{
+
+        font-size: 5em;
+
+    }
+
+    .navi {
+
+        margin: 5em;
+        padding: 0;
+
+    }
+
+    .boxes {
+
+        display: inline-block;
+        font-size: 1.1em;
+        margin-inline: 5em;
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 10px;   
+        
+        p {
+            
+            font-size: 1.4em;
+            padding-top: 1em;
+        
+        }
+        
+        a{
+            text-decoration: none;
+            color: black;
+            display: block;
+            font-size: 1.2em;
+            height: 100%;
+            width: 100%;
+            
+        }
+
+        a:hover{
+
+            color: #23b5d3;
+        }
+        
+        .development {
+            
+            border-color: white;
+            width: 40em;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+            
+        }
+        .refinment {
+            
+            width: 40em;
+            border-color: white;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+        }
+        .languages {
+            
+            border-color: white;
+            width: 40em;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+        }
+        .examples {
+            
+            border-color: white;
+            width: 40em;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+        }
+        .eso {
+            
+            border-color: white;
+            width: 40em;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+        }
+        .zein2 {
+            
+            border-color: white;
+            width: 40em;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+        }
+        .prep {
+            
+            border-color: white;
+            width: 40em;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+        }
+        .terms {
+            
+            border-color: white;
+            width: 40em;
+            height: 19em;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 1em;
+            text-align: center;
+            border-width: 1px;
+            border-radius: 1em;
+        }
+        
+    }
+}

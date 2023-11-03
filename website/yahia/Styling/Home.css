@@ -1,0 +1,132 @@
+html {
+  font-family: "Poppins";
+}
+html .page-title {
+  width: 75%;
+  padding: 20px;
+}
+html span {
+  color: #23b5d3;
+}
+html hr {
+  margin: 5em;
+}
+html .page-title {
+  font-size: 5em;
+}
+html .navi {
+  margin: 5em;
+  padding: 0;
+}
+html .boxes {
+  display: inline-block;
+  font-size: 1.1em;
+  margin-inline: 5em;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+html .boxes p {
+  font-size: 1.4em;
+  padding-top: 1em;
+}
+html .boxes a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  width: 100%;
+}
+html .boxes a:hover {
+  color: #23b5d3;
+}
+html .boxes .development {
+  border-color: white;
+  width: 40em;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}
+html .boxes .refinment {
+  width: 40em;
+  border-color: white;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}
+html .boxes .languages {
+  border-color: white;
+  width: 40em;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}
+html .boxes .examples {
+  border-color: white;
+  width: 40em;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}
+html .boxes .eso {
+  border-color: white;
+  width: 40em;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}
+html .boxes .zein2 {
+  border-color: white;
+  width: 40em;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}
+html .boxes .prep {
+  border-color: white;
+  width: 40em;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}
+html .boxes .terms {
+  border-color: white;
+  width: 40em;
+  height: 19em;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 1em;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 1em;
+}/*# sourceMappingURL=Home.css.map */
