@@ -4,21 +4,22 @@
     background-color: transparent;
     margin: 30px;
     padding: 0px;
-    height: 100px;
+    height: 150px;
     display: flex;
-    align-items: center;
-    
+    justify-content: space-between;
+    align-items: end;
+
 }
 
 .pageTitle {
-    color: black;
-    margin: 20px;
+    display: flex;
+    align-items: center;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  margin: 30px;
-  padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    padding: 0px;
 }
 
 .card {
@@ -53,7 +54,7 @@ body {
 
 .horizontalUl li {
     display: inline-block;
-    
+
 }
 
 .contentImges {
@@ -63,8 +64,10 @@ body {
 .titleSide {
     width: 15px;
     height: 50px;
+    margin-right: 20px;
     background-color: rgb(36, 181, 212);
 }
+
 .list {
     text-align: center;
     list-style-position: inside;
@@ -77,5 +80,17 @@ body {
 }
 
 iframe {
+    margin: auto;
     border: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navigationBar {
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 50%;
 }
