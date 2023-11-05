@@ -19,21 +19,25 @@ html .navi {
   padding: 0;
 }
 html .boxes {
+  scroll-snap-type: x mandatory;
   display: inline-block;
   font-size: 1.1em;
   margin-inline: 5em;
   color: black;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-auto-flow: column;
+  overflow: auto;
   gap: 10px;
+  margin-inline: 10%;
 }
 html .boxes p {
   font-size: 1.4em;
   padding-top: 1em;
+  color: white;
 }
 html .boxes a {
   text-decoration: none;
-  color: black;
+  color: white;
   display: block;
   font-size: 1.2em;
   height: 100%;
@@ -41,8 +45,15 @@ html .boxes a {
 }
 html .boxes a:hover {
   color: #23b5d3;
+  transition-duration: 0.1s;
+}
+html .boxes .empty {
+  border-style: hidden;
+  width: 40em;
+  height: 19em;
 }
 html .boxes .development {
+  background-color: black;
   border-color: white;
   width: 40em;
   height: 19em;
@@ -52,8 +63,10 @@ html .boxes .development {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
 }
 html .boxes .refinment {
+  background-color: black;
   width: 40em;
   border-color: white;
   height: 19em;
@@ -63,8 +76,10 @@ html .boxes .refinment {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
 }
 html .boxes .languages {
+  background-color: black;
   border-color: white;
   width: 40em;
   height: 19em;
@@ -74,8 +89,10 @@ html .boxes .languages {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
 }
 html .boxes .examples {
+  background-color: black;
   border-color: white;
   width: 40em;
   height: 19em;
@@ -85,8 +102,10 @@ html .boxes .examples {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
 }
 html .boxes .eso {
+  background-color: black;
   border-color: white;
   width: 40em;
   height: 19em;
@@ -96,8 +115,10 @@ html .boxes .eso {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
 }
 html .boxes .zein2 {
+  background-color: black;
   border-color: white;
   width: 40em;
   height: 19em;
@@ -107,8 +128,10 @@ html .boxes .zein2 {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
 }
 html .boxes .prep {
+  background-color: black;
   border-color: white;
   width: 40em;
   height: 19em;
@@ -118,8 +141,10 @@ html .boxes .prep {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
 }
 html .boxes .terms {
+  background-color: black;
   border-color: white;
   width: 40em;
   height: 19em;
@@ -129,4 +154,24 @@ html .boxes .terms {
   text-align: center;
   border-width: 1px;
   border-radius: 1em;
+  scroll-snap-align: center;
+}
+html .about-us-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+html .about-us-button button {
+  font-family: "Poppins";
+  border-radius: 50px;
+  border-style: groove;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: larger;
+  padding: 1.5em;
+}
+html footer {
+  margin-inline: 5%;
 }/*# sourceMappingURL=Home.css.map */

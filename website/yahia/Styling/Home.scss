@@ -33,24 +33,30 @@ html {
 
     .boxes {
 
+        scroll-snap-type: x mandatory;
         display: inline-block;
         font-size: 1.1em;
         margin-inline: 5em;
         color: black;
+
         display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 10px;   
+        grid-auto-flow: column;
+        overflow: auto;
+        gap: 10px;
+        margin-inline: 10%;
+
         
         p {
             
             font-size: 1.4em;
             padding-top: 1em;
-        
+            color: white;
+            
         }
         
         a{
             text-decoration: none;
-            color: black;
+            color: white;
             display: block;
             font-size: 1.2em;
             height: 100%;
@@ -61,10 +67,20 @@ html {
         a:hover{
 
             color: #23b5d3;
+            transition-duration: 0.1s;
+        }
+
+        .empty{
+
+            border-style: hidden;
+            width: 40em;
+            height: 19em;
+            
         }
         
         .development {
             
+            background-color: black;
             border-color: white;
             width: 40em;
             height: 19em;
@@ -74,10 +90,13 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
+            
             
         }
         .refinment {
             
+            background-color: black;
             width: 40em;
             border-color: white;
             height: 19em;
@@ -87,9 +106,11 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
         }
         .languages {
             
+            background-color: black;
             border-color: white;
             width: 40em;
             height: 19em;
@@ -99,9 +120,11 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
         }
         .examples {
             
+            background-color: black;
             border-color: white;
             width: 40em;
             height: 19em;
@@ -111,9 +134,11 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
         }
         .eso {
             
+            background-color: black;
             border-color: white;
             width: 40em;
             height: 19em;
@@ -123,9 +148,11 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
         }
         .zein2 {
             
+            background-color: black;
             border-color: white;
             width: 40em;
             height: 19em;
@@ -135,9 +162,11 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
         }
         .prep {
             
+            background-color: black;
             border-color: white;
             width: 40em;
             height: 19em;
@@ -147,9 +176,11 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
         }
         .terms {
             
+            background-color: black;
             border-color: white;
             width: 40em;
             height: 19em;
@@ -159,7 +190,35 @@ html {
             text-align: center;
             border-width: 1px;
             border-radius: 1em;
+            scroll-snap-align: center;
+            
         }
         
+    }
+    
+    .about-us-button{
+        
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4em;
+
+        button {
+            
+            font-family: "Poppins";
+            border-radius: 50px;
+            border-style: groove;
+            color: black;
+            background-color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: larger;
+            padding: 1.5em;
+
+        }
+
+    }
+
+    footer{
+        margin-inline: 5%;
     }
 }
