@@ -54,7 +54,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.8em;
+  font-size: 1.7em;
   color: var(--color-prim-dark);
 }
 
@@ -65,7 +65,7 @@ h5 {
 
 p {
   text-align: justify;
-  font-size: 16pt;
+  font-size: 22pt;
   color: var(--color-grey);
 }
 
@@ -151,7 +151,7 @@ html body .shortcode img {
 }
 
 .divider {
-    margin: 0px;
+  margin: 0px;
 }
 
 .card {
@@ -186,6 +186,7 @@ html body .shortcode img {
 .contentImges {
     width: 300px;
 }
+
 iframe {
     height: 85px;
     padding: 0px;
