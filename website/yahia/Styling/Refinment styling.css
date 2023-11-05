@@ -1,10 +1,18 @@
 html {
-  margin: 10%;
+  margin-inline: 10%;
 }
 html body {
   font-family: "Poppins";
   margin: 1.2em;
   color: #071013;
+}
+html body .navigation {
+  display: flex;
+  margin-inline: 16%;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
 }
 html body a {
   color: #17798d;
