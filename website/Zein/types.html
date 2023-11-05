@@ -2,19 +2,24 @@
 <html>
   
   <head>
+    <meta charset="UTF-8">
     <title>FTC - Programming Languages | Types</title>
     <link href="styles/style.css" rel="stylesheet">
-    <script defer src="scripts/script.js"></script>
     <link href="favicon.png" rel="icon">
   </head>
   
   <body>
-
     <!--HOME PAGE-->
-    <h1>Types of Programming Languages</h1>
+    <div class="navigationBar">
+      <iframe src="../Nav bar/navigation_bar.html"></iframe>
+    </div>
 
-    <nav> </nav>  <!--gets filled in by the js-->
-    <hr>          <!--Horizontal Rule (line/separator)-->
+    <h1>
+      Classification:<br>
+      <span>Common Types</span>
+    </h1>
+
+    <hr class="divider">
 
     <h2>Low-level</h2>
     <h3>Hand-Coded Machine Code...</h3>
@@ -183,28 +188,28 @@
     </p>
 
     <code class="block">
-      /* C solution */
-      #define LIST_SIZE 5
-      #define TRUE 1
-      #define FALSE 0
+/* C solution */
+#define LIST_SIZE 5
+#define TRUE 1
+#define FALSE 0
 
-      int main(int argc, char *arv[])
-      {
-        int num, i;
-        int list[LIST_SIZE];
-        
-        /* number and list of numbers */
-        num = 8;
-        list = [2, 4, 6, 8, 10];
+int main(int argc, char *arv[])
+{
+  int num, i;
+  int list[LIST_SIZE];
+  
+  /* number and list of numbers */
+  num = 8;
+  list = [2, 4, 6, 8, 10];
 
-        for (i = 0; i &lt; LIST_SIZE; ++i)
-          if num == list[i]
-            return TRUE;
-          else
-            continue;
+  for (i = 0; i &lt; LIST_SIZE; ++i)
+    if num == list[i]
+      return TRUE;
+    else
+      continue;
 
-        return FALSE;
-      } /* this returns TRUE */
+  return FALSE;
+} /* this returns TRUE */
     </code>
 
     <br>
