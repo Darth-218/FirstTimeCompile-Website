@@ -3,7 +3,8 @@ const navigation = document.querySelector('div');
 /* list of links we want in the navigation bar */
 const links = {
   "Home": "../yahia/Home.html",
-  "Introduction": "../ahmed/afifi's_page1.html",
+  "Introduction": "../Afifi/afifi's_page1.html",
+  "Examples": "../Afifi/afifi's_page2.html",
   "Developement": "../yahia/Development of programming languages.html",
   "Types": "../Zein/types.html",
   "Preparation": "../Abd El-maaboud/preparation.html",
