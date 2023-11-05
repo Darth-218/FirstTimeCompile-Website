@@ -1,95 +1,121 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .pageHeader {
-    background-color: transparent;
-    margin: 30px;
-    padding: 0px;
-    height: 150px;
-    display: block;
-    align-items: center;
+  background-color: transparent;
+  margin: 30px;
+  padding: 0px;
+  height: 150px;
+  display: block;
+  align-items: center;
 }
 
 .pageTitle {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 30px;
-    padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  margin: 30px;
+  padding: 0px;
 }
 
 .card {
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.cardImage {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  width: 70%;
 }
 
 .pageContent {
-    padding: 10px;
-    margin: 20px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .listCard {
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    background-color: white;
-    padding: 10px 10px 4px 10px;
-    margin: 20px;
-    width: 300px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 10px 4px 10px;
+  margin: 20px;
+  width: 300px;
 }
 
 .divider {
-    margin: 0px;
+  margin: 0px;
 }
 
 .horizontalUl {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .horizontalUl li {
-    display: inline-block;
+  display: inline-block;
 
 }
 
 .contentImges {
-    width: 300px;
+  width: 300px;
 }
 
 .titleSide {
-    width: 15px;
-    height: 50px;
-    margin-right: 20px;
-    background-color: rgb(36, 181, 212);
+  width: 15px;
+  height: 50px;
+  margin-right: 20px;
+  background-color: rgb(36, 181, 212);
 }
 
 .list {
-    text-align: center;
-    list-style-position: inside;
-    margin-top: 70px;
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 70px;
 }
 
 .paragraph {
-    font-size: 1.3em;
-    color: #666666;
+  font-size: 1.3em;
+  color: #666666;
 }
 
 iframe {
-    height: 85px;
-    padding: 0px;
-    margin: auto;
-    border: 0px;
-    width: 100%;
-    display: inline;
-    align-items: center;
+  height: 85px;
+  padding: 0px;
+  margin: auto;
+  border: 0px;
+  width: 100%;
+  display: inline;
+  align-items: center;
 }
 
 .navigationBar {
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.horizontalView {
+  display: flex;
+}
+
+.roundedImage {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 50%;
+  height: 400px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.page2Subtitles {
+  margin: 100px 0px 0px 0px;
 }
