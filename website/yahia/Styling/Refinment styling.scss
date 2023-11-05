@@ -39,7 +39,7 @@ html{
 
         p{
 
-            font-size: 1.3em;
+            font-size: 1.5em;
             color: #666666;
 
         }
@@ -48,6 +48,12 @@ html{
 
             width: 50svh;
 
+        }
+
+        .video{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 5%;
         }
 
         
