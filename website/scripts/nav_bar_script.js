@@ -34,7 +34,8 @@ for (const link in links) {
   }
 
   /* adds the final <a> element to the <nav> tag */
-  div_wrapper.appendChild(link_elem);
-  navigation.appendChild(div_wrapper);
+  // div_wrapper.appendChild(link_elem);
+  // navigation.appendChild(div_wrapper);
+  navigation.appendChild(link_elem);
   ++i;
 }

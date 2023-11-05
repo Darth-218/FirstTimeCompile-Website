@@ -5,10 +5,8 @@
     margin: 30px;
     padding: 0px;
     height: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-
+    display: block;
+    align-items: center;
 }
 
 .pageTitle {
@@ -80,17 +78,18 @@ body {
 }
 
 iframe {
+    height: 85px;
+    padding: 0px;
     margin: auto;
     border: 0px;
     width: 100%;
-    display: flex;
+    display: inline;
     align-items: center;
 }
 
 .navigationBar {
-    margin: 0px 0px 0px 0px;
+    margin: auto;
     align-items: center;
     text-align: center;
     display: flex;
-    width: 60%;
 }

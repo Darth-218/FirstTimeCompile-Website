@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 @keyframes colorAnimation {
     from {background-color: transparent;}
     to {background-color: rgb(36, 181, 212);}
@@ -9,16 +11,20 @@
 }
 
 div {
-    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
 
-a {
-  font-family: 'Courier New';
-  font-size: 0.7em;
+a, a:visited, a:link {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .verticalSerparator {
@@ -28,21 +34,13 @@ a {
     opacity: 0.3;
 }
 
-.button{
-    background-color: transparent;
-    /* for some reason changing the width does nothing */
-    /* width: 200px; */
-    height: 50px;
-    padding: 8px;
-}
-
-.button:hover {
+a:hover {
     animation-name: colorAnimation; 
     animation-duration: 0.5s;
     background-color: rgb(36, 181, 212);
 }
 
-.button:not(:hover) {
+a:not(:hover) {
     animation-name: colorAnimationReversed; 
     animation-duration: 0.5s;
 }
