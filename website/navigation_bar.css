@@ -16,6 +16,11 @@ div {
     margin: auto;
 }
 
+a {
+  font-family: 'Courier New';
+  font-size: 0.7em;
+}
+
 .verticalSerparator {
     border-left: 2px solid #666666;
     display: inline-block;
@@ -25,8 +30,10 @@ div {
 
 .button{
     background-color: transparent;
-    width: 100%;
+    /* for some reason changing the width does nothing */
+    /* width: 200px; */
     height: 50px;
+    padding: 8px;
 }
 
 .button:hover {
