@@ -12,10 +12,10 @@ html hr {
   margin: 5em;
 }
 html .page-title {
-  font-size: 5em;
+  margin-inline: 4%;
+  font-size: 2em;
 }
-html .navi {
-  margin: 5em;
+html .page-title {
   padding: 0;
 }
 html .boxes {

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html{
+    font-weight: bolder;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+a, a:visited, a:link {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    animation-name: colorAnimation; 
+    animation-duration: 0.5s;
+    color: #23b5d3;
+    transition-duration: 0.2s;
+}
+
+a:not(:hover) {
+    animation-name: colorAnimationReversed; 
+    animation-duration: 0.5s;
+}

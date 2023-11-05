@@ -1,6 +1,7 @@
 html{
 
-    margin: 10%;
+    margin-inline: 10%;
+    margin-bottom: 10%;
 
     body {
 
@@ -38,6 +39,16 @@ html{
         img{
             
             width: 50svh;
+
+        }
+
+        .navigation{
+
+            display: flex;
+            margin-inline: 16%;
+            justify-content: center;
+            width: fit-content;
+            font-weight: bold;
 
         }
 

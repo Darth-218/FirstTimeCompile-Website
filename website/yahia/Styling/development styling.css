@@ -1,5 +1,6 @@
 html {
-  margin: 10%;
+  margin-inline: 10%;
+  margin-bottom: 10%;
 }
 html body {
   font-family: "Poppins";
@@ -23,6 +24,14 @@ html body p {
 }
 html body img {
   width: 50svh;
+}
+html body .navigation {
+  display: flex;
+  margin-inline: 16%;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
 }
 html body .first-generation {
   display: grid;
