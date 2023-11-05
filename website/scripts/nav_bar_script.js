@@ -2,14 +2,14 @@ const navigation = document.querySelector('div');
 
 /* list of links we want in the navigation bar */
 const links = {
-  "Home": "index.html",
-  "Introduction": "ahmed/afifi's_page1.html",
-  "Developement": "yahia/Development of programming languages.html",
-  "Types": "types.html",
-  "Preparation": "preparation.html",
-  "Terminology": "terms.html",
-  "What to Learn?": "youssef1.html",
-  "About Us": "about.html",
+  "Home": "../yahia/Home.html",
+  "Introduction": "../ahmed/afifi's_page1.html",
+  "Developement": "../yahia/Development of programming languages.html",
+  "Types": "../Zein/types.html",
+  "Preparation": "../Abd El-maaboud/preparation.html",
+  "Terminology": "../Abd El-maaboud/terms.html",
+  "What to Learn?": "../Youssef/youssef1.html",
+  "About Us": "../about.html",
 };
 
 let i = 0;
