@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-weight: bolder;
+}
+
+a,
+a:visited,
+a:link {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #23b5d3;
+  transition-duration: 0.2s;
+}
