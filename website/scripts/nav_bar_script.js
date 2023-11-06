@@ -6,6 +6,7 @@ const links = {
   "Introduction": "../Afifi/afifi's_page1.html",
   "Examples": "../Afifi/afifi's_page2.html",
   "Developement": "../yahia/Development of programming languages.html",
+  "Refinment": "../yahia/The Refinment of programming languages.html",
   "Types": "../Zein/types.html",
   "Preparation": "../Abd El-maaboud/preparation.html",
   "Terminology": "../Abd El-maaboud/terms.html",
