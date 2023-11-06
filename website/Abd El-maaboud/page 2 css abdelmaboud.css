@@ -1,7 +1,44 @@
 body{
+    margin: 30px;
     font-family: 'poppins'; font-size: 22px;
 }
 h2{
     text-decoration: underline;
     color: rgb(6, 169, 169);
 }
+
+.paragraph {
+    font-size: 1.3em;
+    color: #666666;
+  }
+
+.pageHeader {
+    background-color: transparent;
+    margin: 30px 30px 70px 30px;
+    padding: 0px;
+    height: 150px;
+    display: block;
+    align-items: center;
+  }
+  
+  .pageTitle {
+    display: flex;
+    align-items: center;
+  }
+
+  .titleSide {
+    width: 15px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: rgb(36, 181, 212);
+  }
+
+  iframe {
+    height: 85px;
+    padding: 0px;
+    margin: auto;
+    border: 0px;
+    width: 100%;
+    display: inline;
+    align-items: center;
+  }
