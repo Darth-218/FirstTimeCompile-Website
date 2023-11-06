@@ -8,8 +8,8 @@ const links = {
   "Developement": "../yahia/Development of programming languages.html",
   "Refinment": "../yahia/The Refinment of programming languages.html",
   "Types": "../Zein/types.html",
-  "Preparation": "../Abd El-maaboud/preparation.html",
-  "Terminology": "../Abd El-maaboud/terms.html",
+  "Preparation": "../Abd El-maaboud/Html project page 1 abd elmaboud.html",
+  "Terminology": "../Abd El-maaboud/Html project page 2 abdelmaboud.html",
   "What to Learn?": "../Youssef/youssef1.html",
   "About Us": "../about.html",
 };

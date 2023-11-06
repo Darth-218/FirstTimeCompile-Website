@@ -2,16 +2,16 @@ const navigation = document.querySelector('div');
 
 /* list of links we want in the navigation bar */
 const links = {
-  "Home": "../yahia/Home.html",
-  "Introduction": "../Afifi/afifi's_page1.html",
-  "Examples": "../Afifi/afifi's_page2.html",
-  "Developement": "../yahia/Development of programming languages.html",
-  "Refinment": "../yahia/The Refinment of programming languages.html",
-  "Types": "../Zein/types.html",
-  "Preparation": "../Abd El-maaboud/preparation.html",
-  "Terminology": "../Abd El-maaboud/terms.html",
-  "What to Learn?": "../Youssef/youssef1.html",
-  "About Us": "../about.html",
+  "Home": "../Home.html",
+  "Introduction": "../../Afifi/afifi's_page1.html",
+  "Examples": "../../Afifi/afifi's_page2.html",
+  "Developement": "../Development of programming languages.html",
+  "Refinment": "../The Refinment of programming languages.html",
+  "Types": "../../Zein/types.html",
+  "Preparation": "../../Abd El-maaboud/Html project page 1 abd elmaboud.html",
+  "Terminology": "../../Abd El-maaboud/Html project page 2 abdelmaboud.html",
+  "What to Learn?": "../../Youssef/youssef1.html",
+  "About Us": "../../about.html",
 };
 
 let i = 0;

@@ -172,6 +172,10 @@ html .about-us-button button {
   font-size: larger;
   padding: 1.5em;
 }
+html .about-us-button button a {
+  text-decoration: none;
+  color: black;
+}
 html footer {
   margin-inline: 5%;
 }/*# sourceMappingURL=Home.css.map */
